@@ -1,0 +1,11 @@
+Name: search-api
+Host: 0.0.0.0
+Port: 6000
+Auth:
+  AccessSecret: $AccessSecret
+  AccessExpire: 100
+UserRpc:
+  Etcd:
+    Hosts:
+      - 0.0.0.0:2379
+    Key: user.rpc
